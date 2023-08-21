@@ -48,7 +48,7 @@ fn build() {
     println!("cargo:rustc-link-lib=static=gdcmjpeg16");
     println!("cargo:rustc-link-lib=static=gdcmjpeg8");
     println!("cargo:rustc-link-lib=static=gdcmopenjp2");
-    println!("cargo:rustc-link-lib=static=gdcmuuid");
+    // println!("cargo:rustc-link-lib=static=gdcmuuid");
     println!("cargo:rustc-link-lib=static=gdcmMEXD");
     println!("cargo:rustc-link-lib=static=gdcmzlib");
 

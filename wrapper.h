@@ -12,6 +12,8 @@ extern "C"
 #else
 #define MODULE_API
 #endif
+typedef uint32_t u_int32_t;
+typedef uint16_t u_int16_t;
 
     struct PixelDataInternal
     {
